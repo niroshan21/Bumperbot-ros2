@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/admin/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/admin/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "ros.distro": "jazzy",
+    "cmake.sourceDirectory": "/home/admin/bumperbot_ws/src/bumperbot_cpp_examples"
+}
