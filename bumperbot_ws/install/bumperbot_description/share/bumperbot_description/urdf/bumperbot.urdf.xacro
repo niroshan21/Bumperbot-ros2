@@ -3,7 +3,14 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="bumperbot">
 <!-- xmlns:xacro=... enables use of Xacro macros (not used in this snippet, but allows future extensions).-->
 
+    <!-- Include Gazebo Parameters -->
+    <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_gazebo.xacro"/>
+
+
+    
     <link name="base_footprint"/>
+
+
 
     <link name="base_link">
 
@@ -22,7 +29,7 @@
             </geometry>
         </visual>
 
-        <collision>
+        <collision>        <!-- The collision block defines how the simulator (Gazebo, Isaac, Webots, etc.) should treat a link when it touches other objects in the environment.-->
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
                 <mesh filename="package://bumperbot_description/meshes/base_link.STL" />
@@ -42,7 +49,7 @@
     <link name="wheel_right_link">
 
         <inertial>
-            <origin xyz="0 -0.014 0" rpy="0 0 0" />
+            <origin xyz="0 -0.014 0" rpy="0 0 0" />  <!-- where the center of mass (CoM) is located in the link’s frame-->
             <mass value="0.0530086090966721" />
            <inertia ixx="1.88176298336665E-05" ixy="-4.8444933029987E-10" ixz="1.88163708851143E-08"
                     iyy="3.11510738647764E-05" iyz="-6.93560663069607E-11"
@@ -57,9 +64,9 @@
         </visual>
 
         <collision>
-            <origin xyz="0 -0.015 0" rpy="1.57 0 0" />
+            <origin xyz="0 -0.015 0" rpy="1.57 0 0" />      <!-- Ensures that the sphere touches the ground at the right place (aligned with the wheel rim). -->
             <geometry>
-                <sphere radius="0.033"/>
+                <sphere radius="0.033"/>       <!-- Sphere collision is computationally the simplest shape. less jitter, faster, smoother rolling.-->
             </geometry>
         </collision>    
 
