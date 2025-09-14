@@ -1,9 +1,0 @@
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/uninstall.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/bumperbot_discription_uninstall.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/test.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/edit_cache.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/rebuild_cache.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/list_install_components.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/install.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/install/local.dir
-/home/admin/bumperbot_ws/build/bumperbot_discription/CMakeFiles/install/strip.dir

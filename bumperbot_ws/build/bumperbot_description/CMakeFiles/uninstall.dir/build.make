@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/bumperbot_ws/src/bumperbot_description
+CMAKE_SOURCE_DIR = /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/src/bumperbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/bumperbot_ws/build/bumperbot_description
+CMAKE_BINARY_DIR = /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/build/bumperbot_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/admin/bumperbot_ws/build/bumperbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin/bumperbot_ws/src/bumperbot_description /home/admin/bumperbot_ws/src/bumperbot_description /home/admin/bumperbot_ws/build/bumperbot_description /home/admin/bumperbot_ws/build/bumperbot_description /home/admin/bumperbot_ws/build/bumperbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/build/bumperbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/src/bumperbot_description /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/src/bumperbot_description /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/build/bumperbot_description /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/build/bumperbot_description /home/rajitha-niroshan/FYP/Repos/Bumperbot-ros2/bumperbot_ws/build/bumperbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 
